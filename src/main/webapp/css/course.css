@@ -1,0 +1,81 @@
+@import url('../css/fonts.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Abel' , cursive;
+
+}
+
+/* ----------header--------- */
+h2{
+    display: flex;
+    padding: 1rem 0;
+    justify-content: center;
+}
+
+
+/* --------------main section------------- */
+
+.main-block{
+    background: url('../img/courses/bg.jpg');
+    width: 100%;
+    background-size: cover; 
+    height:90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* ------caraousal------ */
+
+
+main .blog-post .blog-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin: 3rem 2rem;
+    box-shadow: 0 15px 20px black;
+}
+
+main .blog-content .blog-title{
+    padding: 2rem 0rem;
+    color: whitesmoke;
+}
+
+main .blog-content .blog-title h2{
+    font-family: 'Josefin';
+}
+
+/* main .blog-content .btn-blog{
+    padding: .7rem 2rem;
+    background: var(--sky);
+    margin: .5rem;
+    color: #0f0f0f;
+} */
+
+main .blog-content span{
+    display: block;
+}
+
+section .container .owl-nav{
+    position: absolute;
+    top: 0%;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.owl-nav .owl-prev .owl-nav-prev,
+.owl-nav .owl-next .owl-nav-next{
+    color:var(--text-gray);
+    background: transparent;
+    font-size: 2rem;
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover{
+    background: transparent;
+    color: var(--midnight);
+}

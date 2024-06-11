@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/* Style for the Parcel Management Section */
+#parcels-section {
+    /* Add any specific styling for the Parcel Management section here */
+}
+
+/* Style for the Sender and Receiver Form */
+#add-employee-section {
+    background-color: #fff; /* Set background color */
+    padding: 20px; /* Add padding */
+    border-radius: 8px; /* Add border radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+/* Style for the Parcel Information Form */
+#parcelInfoForm {
+    background-color: #fff; /* Set background color */
+    padding: 20px; /* Add padding */
+    border-radius: 8px; /* Add border radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+/* Common style for form labels */
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Common style for form inputs and textareas */
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style for form buttons */
+button {
+    background-color: #4CAF50; /* Green background color */
+    color: #fff; /* White text color */
+    padding: 10px 15px; /* Padding for the button */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Add border radius for rounded corners */
+    cursor: pointer; /* Add pointer cursor */
+}
+
+/* Style for Calculate Price button */
+#parcelInfoForm button:first-child {
+    background-color: #3498db; /* Blue background color */
+    margin-right: 10px; /* Add margin to separate buttons */
+}
